@@ -11,5 +11,5 @@ variable "aminull" {
   }
 
 variable "nodefault" {
-  description = "no default
+  description = "no default"
  }
