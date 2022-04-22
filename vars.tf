@@ -9,3 +9,7 @@ variable "aminull" {
   description = "am i null"
   default = null
   }
+
+variable "nodefault" {
+  description = "no default
+ }
