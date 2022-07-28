@@ -22,3 +22,10 @@ Make sure that you complete the following prerequisites before you begin:
 3. Create your [Terraform template](https://cloud.ibm.com/docs/schematics?topic=schematics-create-tf-config).
 
 4. Upload your Terraform template and readme file to your GitHub repository.
+
+## Usage
+module "nullcheck" {
+  source  = "git@github.com:/kbiegert/nullcheck.git"
+  name    = var.name
+  aminull = var.aminull
+}
