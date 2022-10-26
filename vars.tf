@@ -14,3 +14,9 @@ variable "aminull" {
 variable "nodefault" {
   description = "no default"
  }
+
+variable "testPassword" {
+  description = "A test password."
+  type        = string
+  sensitive   = true
+}
